@@ -1,0 +1,116 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(../img/background.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #e0e2ea9e;
+}
+
+.container{ 
+    width: 370px;
+    height: 580px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 5px rgba(130, 130, 130, 0.432);
+    
+}
+
+.img-principal{ 
+    width: 100%;
+}
+
+.logo{ 
+    width: 370px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.conteudo{ 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.titulo{ 
+    color: rgb(12, 12, 81);
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.paragrafo{ 
+    color: rgba(128, 128, 128, 0.79);
+    margin-left: 50px;
+    width: 270px;
+}
+
+.musica{ 
+    height: 80px;
+    border-radius: 8px;
+    background-color: rgba(210, 230, 244, 0.242);
+    margin: 30px 30px 40px 45px;
+}
+
+.planos{ 
+  margin-left: 110px;
+  margin-top: -99px;
+  position: relative;
+
+}
+
+.planos a{ 
+  position: absolute;
+  right: 50px;
+  top: 30%;
+}
+
+a{ 
+    text-decoration: none;
+    color: rgb(56,42,225);
+    font-size: 15px;
+}
+span{ 
+    color: rgba(128, 128, 128, 0.511);
+}
+
+.icon-img{ 
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+
+.pagamento{ 
+    box-shadow: 0px 5px 8px rgba(137, 137, 137, 0.74);
+    cursor: pointer;
+    width: 280px ;
+    height: 40px;
+    margin-top: 45px;
+    margin-left: 50px;
+    background-color: rgb(41, 28, 187);
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.cancel{ 
+    color: rgb(24, 23, 23);
+}
+
+.cancel:hover{ 
+    color: rgb(20, 20, 20);
+}
+.botoes a{ 
+    text-decoration: none;
+    margin-top: 40px;
+    margin-left: 140px;
+}
